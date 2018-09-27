@@ -13,6 +13,8 @@ server:
 ---
 spring:
   profiles: sentence
+  application:
+    name: sentence
 server:
   port: 8020  
 words: NotApplicable
@@ -20,24 +22,34 @@ words: NotApplicable
 ---
 spring:
   profiles: subject
+  application:
+    name: subject
 words: I,You,He,She,It
   
 ---
 spring:
   profiles: verb
+  application:
+    name: verb
 words: ran,knew,had,saw,bought
 
 ---
 spring:
   profiles: article
+  application:
+    name: article
 words: a,the
 
 ---
 spring:
   profiles: adjective
+  application:
+    name: adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
   profiles: noun
+  application:
+    name: noun
 words: boat,book,vote,seat,backpack,partition,groundhog
