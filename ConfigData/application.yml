@@ -35,8 +35,6 @@ words: a,the
 ---
 spring:
   profiles: adjective
-server:
-  port: 8050
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
